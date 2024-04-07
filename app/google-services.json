@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "241350288769",
+    "firebase_url": "https://pythontest-cf8cb-default-rtdb.firebaseio.com",
+    "project_id": "pythontest-cf8cb",
+    "storage_bucket": "pythontest-cf8cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241350288769:android:d18bf163cc616a981d7480",
+        "android_client_info": {
+          "package_name": "com.example.excel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnb5YPZBt6eQtLPiDmGsPba2qQJRcZro4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241350288769:android:31cee6bfd9c137301d7480",
+        "android_client_info": {
+          "package_name": "com.example.thethirdeye"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnb5YPZBt6eQtLPiDmGsPba2qQJRcZro4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
