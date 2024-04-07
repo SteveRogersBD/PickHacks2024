@@ -1,4 +1,5 @@
 # ThirdEye: Your AI-Powered Sentinel
+You can find the openCVModel repository [here](https://github.com/SteveRogersBD/openCVModel).
 
 ### Motivation
 
