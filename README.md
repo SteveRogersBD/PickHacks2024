@@ -86,3 +86,81 @@ git clone https://github.com/yourusername/the-third-eye.git
 cd the-third-eye
 ```
 ---
+
+---
+
+## 🧪 Testing
+
+**Frontend**: Jest + React Testing Library, Playwright for E2E.
+
+**Backend (planned)**: JUnit, Mockito, Spring MockMvc.
+
+---
+
+## 🚀 Deployment Instructions
+
+* **Frontend**: build with `npm run build`, deploy static assets to Vercel/Netlify or Nginx.
+* **Backend**: containerize, push to **GCR**, deploy to **GKE** with Helm/Kustomize.
+* **CI/CD**: GitHub Actions workflows for lint/test/build/deploy.
+
+---
+
+## 🔒 Security Notes
+
+* Role‑based access control (candidate/interviewer)
+* JWT access tokens; refresh tokens; secure cookie options in production
+* CSRF protection for non‑idempotent routes; strict CORS
+* Rate limiting on auth and booking endpoints
+* WebSocket auth via token on connect
+
+---
+
+## 📊 Performance & Observability
+
+* Redis caching for slot lookups and session presence
+* Zipkin for distributed tracing across API calls & WS events
+* Prometheus metrics: latency, error rate, WS connections, queue depth
+* Frontend Web Vitals reporting (CLS/LCP/TTI)
+
+---
+
+## 🗺️ Roadmap / Future Work
+
+* [x] Frontend MVP with mocks
+* [x] Spring Boot backend with REST + WS
+* [ ] CI/CD pipelines (Actions)
+* [ ] GKE deployment with autoscaling
+* [ ] Interviewer dashboards & analytics
+* [ ] Calendar sync (Google/Microsoft)
+* [ ] Payments (Stripe) for premium features
+
+---
+
+## 🤝 Contributing Guidelines
+
+Pull requests are welcome! For major changes, open an issue first to discuss scope/design.
+
+**Branching**: `feat/*`, `fix/*`, `chore/*`
+**Commit style**: Conventional Commits
+**PR checklist**: tests, docs, accessible UI, screenshots for UI changes
+
+---
+## 🤝 Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+### Ways to Contribute
+- 🐛 **Bug Reports**: Found a bug? [Open an issue](https://github.com/SteveRogersBD/PickHacks2024/issues)
+- 💡 **Feature Requests**: Have an idea? [Start a discussion](https://github.com/SteveRogersBD/PickHacks2024/discussions)
+- 🔧 **Code Contributions**: Submit pull requests for bug fixes or new features
+- 📖 **Documentation**: Help improve our docs and tutorials
+---
+
+## 👤 Contact / Author Info
+
+**Aniruddha Biswas**
+
+* GitHub: [https://github.com/SteveRogersBD](https://github.com/SteveRogersBD)
+* LinkedIn: [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/aniruddha-biswas-atanu-16b708228)
+* Email: [cd43641@truman.edu](mailto:cd43641@truman.edu)
+</ddiv>
