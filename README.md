@@ -1,46 +1,88 @@
-# ThirdEye: Your AI-Powered Sentinel
-You can find the openCVModel repository [here](https://github.com/SteveRogersBD/openCVModel). <br> Download and install our app 
-[from here](https://drive.google.com/file/d/1DJAqIsNck_lBznMiqPtifHBqCCxMp5cy/view?usp=sharing).
+<div align="center">
+
+# 👁️ The Third Eye  
+### *AI-Powered Smart Home Security*
+
+[![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](#)  
+[![Backend](https://img.shields.io/badge/Backend-Spring%20Boot%20%7C%20Firebase-orange.svg)](#)  
+[![AI](https://img.shields.io/badge/AI-Facial%20Recognition-blueviolet.svg)](#)  
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+
+*A next-gen home security system combining Android, AI, and real-time emergency response features to keep you safe.*  
+
+</div>
+
+---
+
+## 🌟 Overview  
+
+**The Third Eye** is an Android-based AI-powered home security solution.  
+It integrates **real-time facial recognition, multi-camera support, emergency alerts, and live monitoring** to safeguard homes and workplaces.  
+
+This project combines **Spring Boot microservices** with **Firebase** for secure backend operations, while the mobile app provides a sleek user experience for monitoring, notifications, and emergency response.
+
+---
+
+## 🎥 Demo  
+
+*(Insert screenshots, screen recordings, or a hosted demo link here)*  
+
+---
+
+## 🎯 Mission  
+
+To provide a **secure, intelligent, and user-friendly** home security application that leverages AI and cloud technologies, ensuring families and businesses can monitor, respond, and act instantly during critical situations.  
+
+---
+
+## 🚀 Features  
+
+- 🔗 **Multiple Camera Integration** – Manage multiple cameras in one app.  
+- 🧑‍🤝‍🧑 **Facial Recognition** – Identify family, friends, and employees with AI.  
+- 🎥 **Real-time Monitoring** – Watch live camera feeds.  
+- 📝 **Event Logging** – Record timestamps & individuals in Firebase.  
+- 🚨 **Instant Alerts** – Push/email notifications for unknown faces.  
+- 🆘 **Emergency Response** – Trigger buzzer + quick call to emergency contacts.  
+- 🧠 **Model Training** – Train recognition model for higher accuracy.  
+- 📍 **Location Sharing** – Send your live location instantly via email.  
+- ☎️ **Direct 911 Access** – Dedicated button to call 911.  
+
+---
+
+## 🏗️ Architecture Overview  
+
+Android App <----> Spring Boot REST APIs <----> Firebase Database
+| |
+| └─> AI Model (OpenCV / TensorFlow Lite)
+|
+└─> Push Notifications (Firebase Cloud Messaging)
 
 
-### Motivation
+---
 
-Our journey with ThirdEye started from a collective vision to redefine security measures in personal and professional spaces. The unsettling rise in security breaches fueled our determination to integrate advanced AI capabilities into everyday safety protocols, ensuring peace of mind through innovative technology.
+## ⚙️ Tech Stack  
 
-### Tools Used
-- *Android App Development*: We adopted Kotlin to develop a user-friendly interface, empowering users to manage settings, view camera feeds, and receive instant alerts.
-- *Facial Recognition Integration*: Utilizing Google ML Kit and OpenCV, ThirdEye recognizes known individuals and alerts about unfamiliar faces, ensuring a personalized security experience.
-- *Real-time Data Management*: Leveraging Firebase Firestore for data storage and Firebase Cloud Messaging for instant notifications, our system maintains a vigilant watch over your spaces.
-- *Motion Detection Capability*: By integrating IoT-based motion sensors, ThirdEye extends its surveillance to detect and alert users about unauthorized movements, enhancing overall security measures.
+- **Frontend (Mobile)**: Android Studio (Kotlin/Java), Material Design  
+- **Backend**: Spring Boot, REST APIs, Firebase  
+- **AI/Recognition**: OpenCV, TensorFlow Lite  
+- **Cloud Services**: Firebase Authentication, Firebase Cloud Messaging  
+- **Database**: Firebase Realtime Database  
+- **Security**: JWT, OAuth2, Encrypted Storage  
+- **CI/CD & Deployment**: Docker, Kubernetes (K8s)  
 
-### Features
-- *Multiple Camera Integration*: Add and manage multiple cameras through a user-friendly mobile application.
-- *Facial Recognition*: Utilize advanced facial recognition algorithms to identify family, friends, and employees.
-- *Real-time Monitoring*: Monitor live feeds from all connected cameras through the mobile app.
-- *Event Logging*: Record timestamps and individuals recognized by the system, storing data securely on Firebase database.
-- *Alert System*: Receive instant notifications via email and push notifications on the app when an unknown individual is detected.
-- *Emergency Response*: Activate an emergency alert system that triggers a buzzer and provides options to call emergency numbers.
-- *Model Training*: Train the facial recognition model by feeding images of family and friends to improve accuracy.
-- *Emergency Location Sharing*: Within the app, a dedicated button enables users to send their current location via email instantly, ensuring help is always a tap away during critical situations.
-- *Direct 911 Access*: A unique, externally accessible button allows users to call 911 directly from the app interface, facilitating immediate emergency response without navigating through multiple screens.
+---
 
-### Installation
-[Provide instructions on how to install and set up the ThirdEye system here]
+## 🛠️ Getting Started  
 
-### Usage
+### Prerequisites
+- Android Studio (Arctic Fox or later)  
+- JDK 17+  
+- Node.js (if frontend dashboard is added)  
+- Firebase project credentials  
 
-1. Launch the mobile app and add cameras to the system.
-2. Train the facial recognition model by feeding images of family and friends.
-3. Configure motion sensor settings and emergency contact numbers.
-4. Monitor live camera feeds and receive notifications for any unrecognized individuals detected.
-5. Use the app to trigger emergency alerts and contact authorities if necessary.
-
-### Contributing
-
-Contributions to this project are welcome! Feel free to submit bug reports, feature requests, or pull requests through the GitHub repository's Issues tab.
-
-### Credits
-Team: The Third Eye
-- Anniruddha Biswas Atanu (aniruddhabiswas105@gmail.com) - Android App Development
-- Ashik Dey Rupak (ashikdeyrupak03@gmail.com) - Facial Recognition Integration
-- Thirtha Karmakar (thirthakarmakar@gmail.com) - Real-time Data Management & Motion Detection Capability
+### Clone the repository
+```bash
+git clone https://github.com/yourusername/the-third-eye.git
+cd the-third-eye
+```
+---
